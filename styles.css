@@ -65,7 +65,7 @@
   }
   
   .navbar a:hover {
-    color: var(--cg-black);
+    color: black;
     text-decoration: underline;
   }
   
@@ -256,7 +256,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--cg-lightblue);
+    background-color: var(--cg-black);
     color: var(--cg-white);
     position: absolute;
     bottom: 0;
