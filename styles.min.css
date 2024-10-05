@@ -1,0 +1,112 @@
+:root {
+  --light-blue: #659BDF
+}
+html {
+  height: 100%;
+}
+
+nav > ul {
+  font-size: 14px;
+}
+.page-title {
+  font-size:43px;
+}
+.about-text {
+  border: 1px solid black;
+  border-width: 3px;
+  padding: 10px;
+  background-color: white;
+}
+
+body {
+  background-image: url("background_image.jpeg");
+
+}
+.resume {
+  border: 2px solid black;
+  padding: 8px;
+  font-size: 13px;
+  background-color:white;
+}
+body {
+  background-color: white;
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif
+}
+
+
+main {
+  padding: 0 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  align-items: center;
+}
+
+/* CSS for navigation bar */
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 7%;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  background-color: var(--light-blue);
+  color: white;
+  padding: 0px 0px;
+
+  /* Debug border */
+  /* border: solid red; */
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 30px;
+  list-style: none;
+}
+
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  margin: 0 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.navbar a:hover {
+  color: black;
+  text-decoration: underline;
+}
+/* CSS for page footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-blue);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+.navbar .logo a:hover {
+  text-decoration:none; 
+}
